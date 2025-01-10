@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import "./style.css";
 
-export const WelcomeScreen = () => {
+const WelcomeScreen = () => {
   const [activeTab, setActiveTab] = useState("sign-in");
   const navigate = useNavigate();
 
@@ -45,3 +45,5 @@ export const WelcomeScreen = () => {
     </main>
   );
 };
+
+export default WelcomeScreen;

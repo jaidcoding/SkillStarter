@@ -12,7 +12,7 @@ const statesList = [
   "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"
 ];
 
-export const CompleteProfile = () => {
+const CompleteProfile = () => {
   const navigate = useNavigate();
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
@@ -73,3 +73,5 @@ export const CompleteProfile = () => {
     </main>
   );
 };
+
+export default CompleteProfile;
