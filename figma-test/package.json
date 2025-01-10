@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "serve": "vite preview --port $10000",
+    "serve": "vite preview --port $PORT", // Use the port specified by Render
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
